@@ -90,17 +90,17 @@ section{
 
 header{
     grid-area: header;
-    background: red;
+    background: rgb(253, 224, 224);
 }
 
 footer{
     grid-area: footer;
-    background: green;
+    background: rgb(223, 245, 223);
 }
 
 main{
     grid-area: main;
-    background: blue;
+    background: rgb(214, 214, 232);
 }
 
 .wrapper{
@@ -108,5 +108,7 @@ main{
     grid-template: 'header header header'
                     '.     main main'
                     'footer footer footer';
+                    grid-template-rows: 150px 600px 80px;
+                    grid-template-columns: 150px 1fr;
 }
 
